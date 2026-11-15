@@ -4,12 +4,13 @@
 
 ## 内容
 
-- `method_cards.json`：28 张方法卡，分为正例、近失误和负例。
+- `method_cards.json`：32 张方法卡，分为正例、近失误和负例。
 - `CASE_STUDY.md`：一个公开账号最近九帖的限定范围方法审查；不包含年度原始归档或图片。
 - `EMPIRICAL_CLAIM_AUDIT.md`：星系旋转曲线与 GTFT 寿命公式的限定范围复核，附六维分评和公开复现立项。
 - `OBSERVATION_CLAIM_AUDIT.md`：双脉冲星与米格达尔效应的观测主张复核，附原始实验对照和两个复现项目。
 - `PARAMETER_SUPERCONDUCTOR_AUDIT.md`：粒子全参数与超导机制的单位、公式上下界、版本和实验闭环复核。
 - `THEORY_LINEAGE_AUDIT.md`：年度名称与内核演化、六维分评、研究立项，以及四元数三次方程的完整解集。
+- `CROSS_DOMAIN_APPLICATION_AUDIT.md`：拓扑病理学与治沙方案的跨学科准入、风险边界和退出条件。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
 

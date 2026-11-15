@@ -271,6 +271,43 @@
       "sourceIds": [
         "11079846507"
       ]
+    },
+    {
+      "cardId": "shared-scalar-needs-layered-validation",
+      "kind": "near_miss",
+      "ruleText": "用一个序参量连接多种疾病、组织或材料时，必须分别验证定义、量纲、仪器和方向。不能把多模态指标排在同一表格中就宣称它们是同一个普适生物标志物。",
+      "applicability": "医学、生物、网络科学和跨领域序参量。",
+      "sourceIds": [
+        "10829216285"
+      ]
+    },
+    {
+      "cardId": "intervention-direction-must-be-consistent",
+      "kind": "negative",
+      "ruleText": "同一对象若在不同段落被描述为参数过低和过高，并分别导向相反干预，必须先冻结应用结论，检查疾病分层、尺度、定义与数据；未解决矛盾前不得给出干预建议。",
+      "applicability": "医疗、材料调控、公共工程和任何双向干预模型。",
+      "sourceIds": [
+        "10829216285"
+      ]
+    },
+    {
+      "cardId": "absolute-safety-requires-long-term-counterevidence",
+      "kind": "negative",
+      "ruleText": "‘无副作用’‘永久有效’‘完全安全’不能由短期强度、成活率或理论结构推出。必须分别提供毒理、降解、长期对照和失败记录；证据不足时写未知，不写绝对保证。",
+      "applicability": "生态工程、化学材料、医疗设备和公共健康传播。",
+      "sourceIds": [
+        "10781170630"
+      ]
+    },
+    {
+      "cardId": "cross-domain-parameter-needs-independent-instrument",
+      "kind": "positive",
+      "ruleText": "跨学科共享参数必须有不依赖目标结局的测量仪器和校准链。不能从疗效、强度、成本或宇宙学结果反推参数后，再声称该参数独立预言了同一结局。",
+      "applicability": "跨学科映射、物理直觉引擎、参数内生与应用转化。",
+      "sourceIds": [
+        "10829216285",
+        "10781170630"
+      ]
     }
   ],
   "readyForTraining": false
