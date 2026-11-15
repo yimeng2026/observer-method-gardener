@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "theory-diff/v1",
+  "recordId": "feq-to-gtft-public-material-2026",
+  "from": {
+    "name": "FEQ",
+    "sourceId": "10541643737",
+    "dateLabel": "2026-03-08"
+  },
+  "to": {
+    "name": "GTFT",
+    "sourceId": "10953963550",
+    "dateLabel": "2026-08-18"
+  },
+  "observedChanges": [
+    {
+      "dimension": "mathematical_organization",
+      "before": "FEQ 名下的脉冲星材料以已知主项和新增修正项组织讨论。",
+      "after": "GTFT 材料改用五维作用量、投影和主要公式目录组织公理、粒子、凝聚态、天体与地球物理。",
+      "evidenceLocator": "10541643737/03.jpg; 10953963550/text"
+    },
+    {
+      "dimension": "declared_scope",
+      "before": "本代表材料集中于脉冲星轨道与既有 FEQ 议题。",
+      "after": "公开目录宣称扩展到六力、61 种粒子、核子、凝聚态、天体、宇宙学和地球物理。",
+      "evidenceLocator": "10953963550/text; formula catalogue"
+    }
+  ],
+  "unchangedConstraints": [
+    "没有公开从 FEQ 到 GTFT 的完整数学映射或等价性证明。",
+    "参数来源、独立留出预测和外部实验复现仍未闭合。",
+    "公式数量与覆盖领域增长不作为科学证据升级。"
+  ],
+  "parameterProvenanceStatus": "unresolved",
+  "knownLimitStatus": "not_established",
+  "predictionDiffStatus": "not_established",
+  "scientificAdvanceStatus": "unverified",
+  "evidenceUpgrade": false,
+  "notes": "只记录公开材料中可观察的组织与范围差异，不判断未公开文稿，也不证明任一理论成立。"
+}
