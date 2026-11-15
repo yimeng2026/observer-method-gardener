@@ -251,6 +251,26 @@
       "sourceIds": [
         "10751880300"
       ]
+    },
+    {
+      "cardId": "theory-rename-requires-semantic-diff",
+      "kind": "positive",
+      "ruleText": "理论更名或扩张时必须列出对象、公理、动力学、参数、观测量、已知极限和预言的增删改。只有名称、排名或覆盖领域变化时称为重组或 rebranding，不记为科学突破。",
+      "applicability": "理论年表、版本管理、跨学科扩张和多框架比较。",
+      "sourceIds": [
+        "10953963550",
+        "10987516879",
+        "11153774899"
+      ]
+    },
+    {
+      "cardId": "noncommutative-claim-needs-executable-multiplication",
+      "kind": "negative",
+      "ruleText": "把实数或复数结论推广到四元数、矩阵或算子时，必须显式执行乘法并检查反例、零因子和完整解集。高维带来更多对象不等于任意高维对象都满足原方程。",
+      "applicability": "四元数、非交换代数、矩阵力学和 AI 数学回答。",
+      "sourceIds": [
+        "11079846507"
+      ]
     }
   ],
   "readyForTraining": false
