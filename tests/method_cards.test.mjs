@@ -36,21 +36,28 @@ function chat(request) {
   });
 }
 
-test("observer method bundle enters all existing garden roles without identity or evidence upgrade", async () => {
-  const prompts = [];
-  const report = await proposeIntuitionWithModel({
-    task,
-    methodCards: cards,
-    generatedAt: "2026-11-15T00:00:00.000Z",
-    chat: (request) => { prompts.push(request.userPrompt); return chat(request); },
-  });
-  assert.equal(report.status, "complete");
-  assert.deepEqual(report.methodCards, cards);
-  assert.equal(report.exchanges.length, 3);
-  assert.ok(prompts.every((prompt) => cards.every((card) => prompt.includes(card.ruleText))));
-  assert.ok(report.proposals.every((card) => card.mathStatus === "proposal" && card.physicalStatus === "analogy"));
-  assert.equal(report.evidenceUpgrade, false);
-  assert.ok(!JSON.stringify(report).includes("◎粒子宇宙观察者25"));
+test("observer method bundle uses bounded batches without identity or evidence upgrade", async () => {
+  await assert.rejects(
+    () => proposeIntuitionWithModel({ task, methodCards: cards, generatedAt: "2026-11-15T00:00:00.000Z", chat }),
+    /One to twenty method cards/,
+  );
+  for (let start = 0; start < cards.length; start += 20) {
+    const selectedCards = cards.slice(start, start + 20);
+    const prompts = [];
+    const report = await proposeIntuitionWithModel({
+      task,
+      methodCards: selectedCards,
+      generatedAt: "2026-11-15T00:00:00.000Z",
+      chat: (request) => { prompts.push(request.userPrompt); return chat(request); },
+    });
+    assert.equal(report.status, "complete");
+    assert.deepEqual(report.methodCards, selectedCards);
+    assert.equal(report.exchanges.length, 3);
+    assert.ok(prompts.every((prompt) => selectedCards.every((card) => prompt.includes(card.ruleText))));
+    assert.ok(report.proposals.every((card) => card.mathStatus === "proposal" && card.physicalStatus === "analogy"));
+    assert.equal(report.evidenceUpgrade, false);
+    assert.ok(!JSON.stringify(report).includes("◎粒子宇宙观察者25"));
+  }
 });
 
 test("hard-check failure survives method generation and public-post permission stays out of training", async () => {

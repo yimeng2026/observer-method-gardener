@@ -4,10 +4,11 @@
 
 ## 内容
 
-- `method_cards.json`：18 张方法卡，分为正例、近失误和负例。
+- `method_cards.json`：22 张方法卡，分为正例、近失误和负例。
 - `CASE_STUDY.md`：一个公开账号最近九帖的限定范围方法审查；不包含年度原始归档或图片。
 - `EMPIRICAL_CLAIM_AUDIT.md`：星系旋转曲线与 GTFT 寿命公式的限定范围复核，附六维分评和公开复现立项。
-- `checks/empirical_claims.py`、`tests/test_empirical_claims.py`：七行公开数据表的可复算算术检查。
+- `OBSERVATION_CLAIM_AUDIT.md`：双脉冲星与米格达尔效应的观测主张复核，附原始实验对照和两个复现项目。
+- `checks/`、`tests/test_empirical_claims.py`、`tests/test_migdal_claim.py`：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
 
 ## 边界
@@ -20,7 +21,7 @@
 
 ## 花园接口
 
-把相关卡片的 `cardId / ruleText / applicability` 传给 `proposeIntuitionWithModel({ methodCards })`。根据任务选用少量相关卡片，不建议每次注入全部卡片。
+把相关卡片的 `cardId / ruleText / applicability` 传给 `proposeIntuitionWithModel({ methodCards })`。花园单次接受 **1—20 张**；应根据任务选用少量相关卡片，跨批次审查时逐批调用，不通过放宽上限一次性注入全部卡片。
 
 ## 离线验证
 

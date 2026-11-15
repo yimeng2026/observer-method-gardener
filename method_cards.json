@@ -179,6 +179,42 @@
       "sourceIds": [
         "10957452992"
       ]
+    },
+    {
+      "cardId": "baseline-plus-undefined-correction-is-not-prediction",
+      "kind": "near_miss",
+      "ruleText": "复现标准理论主项后，新增修正必须具有明确函数、参数来源、可计算数值和传播不确定度。只写出修正项外观而不做同口径数据比较，不能宣称优于基线。",
+      "applicability": "脉冲星、修正引力、微扰展开和已知极限之外的新效应。",
+      "sourceIds": [
+        "10541643737"
+      ]
+    },
+    {
+      "cardId": "observable-and-scale-match-primary-experiment",
+      "kind": "negative",
+      "ruleText": "引用实验时必须对齐观测量、单位、能区、样本和选择条件。二手模型采用不同中心值或尺度时，先证明换算和探测器响应，不能把同名物理效应直接当成自定义理论的验证。",
+      "applicability": "实验复核、跨理论解释、谱学和暗物质探测。",
+      "sourceIds": [
+        "10406582785"
+      ]
+    },
+    {
+      "cardId": "institutional-endorsement-needs-primary-source",
+      "kind": "negative",
+      "ruleText": "涉及真实机构、学者、工作组或直接引语时，必须定位机构公告、原始采访或论文记录。检索不到支持时标记未核验，不传播为事实，也不把 AI 生成表态当作科学认可。",
+      "applicability": "公共科学传播、机构合作声明、人物评价和理论背书。",
+      "sourceIds": [
+        "10541643737"
+      ]
+    },
+    {
+      "cardId": "small-sample-claim-needs-event-level-likelihood",
+      "kind": "near_miss",
+      "ruleText": "少量事件不能仅凭拟合中心值认证理论。必须公开事件选择、背景、效率、系统误差、模型自由度和似然；高斯形式是待推导或检验的假设，不是自动成立的实验结论。",
+      "applicability": "稀有事件、粒子物理、天文计数和小样本实验主张。",
+      "sourceIds": [
+        "10406582785"
+      ]
     }
   ],
   "readyForTraining": false
