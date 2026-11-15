@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "theory-diff/v1",
+  "recordId": "cnf-legacy-to-restructuring-v1-2026-10-26",
+  "from": {
+    "name": "CNF legacy Postulate 105.1",
+    "sourceId": "TOE-SYLVA/framework/105_cnf_standard_model_unification.md",
+    "sourceRevision": "37ea8d0d34741df9d427fe249dffad686e6196c0",
+    "sourceNote": "旧主张由 2026-10-26 的否决记录明确转述；这里不是旧版原始文件哈希。"
+  },
+  "to": {
+    "name": "CNF restructuring v1",
+    "sourceId": "TOE-SYLVA/framework/CNF_RESTRUCTURING_2026.md",
+    "sourceRevision": "37ea8d0d34741df9d427fe249dffad686e6196c0",
+    "sourceSha256": "a9cdd31c17b819bdbd8ef687841ffe92f58113ec376984639c3142b8cb5b0f72"
+  },
+  "observedChanges": [
+    {
+      "dimension": "minimal_definition",
+      "before": "旧推论把单边、二元分支和三叉汇聚直接对应到连续规范群。",
+      "after": "整改版把 CNF 写成包含事件、状态、局域更新、初始状态、观测量和粗粒化的七元描述格式，并明确它仍只是研究纲领。",
+      "evidenceLocator": "105 号文档第 1 节；CNF_RESTRUCTURING_2026.md 第 1.1 节"
+    },
+    {
+      "dimension": "evidence_claims",
+      "before": "旧链条会把图对应、已知结果复现或脚本通过用于支持统一物理结论。",
+      "after": "整改版撤回旧规范群推论，分别登记数学反例、兼容性、后验拟合、独立预言和实验复现。",
+      "evidenceLocator": "105 号文档第 1.1 节；CNF_RESTRUCTURING_2026.md 第 2 节"
+    },
+    {
+      "dimension": "cross_domain_governance",
+      "before": "跨领域同名变量和覆盖范围容易并入统一理论叙事。",
+      "after": "整改版改成领域自治的接口联邦，只统一对象、单位、数据、误差、预测冻结和负结果协议。",
+      "evidenceLocator": "CNF_RESTRUCTURING_2026.md 第 4 节"
+    }
+  ],
+  "unchangedConstraints": [
+    "CNF 仍缺一个完整指定并通过外部检验的最小物理模型。",
+    "N0 到 N3 的晋级条件被定义不等于这些层级已经完成。",
+    "撤回旧推论属于方法论修正，不是新的物理实验证据。"
+  ],
+  "parameterProvenanceStatus": "ledger_required_not_complete",
+  "knownLimitStatus": "recovery_conditions_defined_not_proven",
+  "predictionDiffStatus": "legacy_independent_claims_withdrawn_pending_review",
+  "scientificAdvanceStatus": "unverified",
+  "evidenceUpgrade": false,
+  "notes": "这是 CNF 自身的版本审计记录；承认整改不等于宣布 CNF 已成为 TOE。"
+}

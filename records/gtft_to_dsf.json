@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "theory-diff/v1",
+  "recordId": "gtft-to-dsf-public-material-2026",
+  "from": {
+    "name": "GTFT",
+    "sourceId": "10953963550",
+    "dateLabel": "2026-08-18"
+  },
+  "to": {
+    "name": "Hermes/DSF",
+    "sourceId": "10987516879",
+    "dateLabel": "2026-09-01"
+  },
+  "observedChanges": [
+    {
+      "dimension": "mathematical_organization",
+      "before": "GTFT 代表材料以五维作用量、投影和主要公式目录组织理论。",
+      "after": "DSF 代表材料明确引入离散阶跃算子、纤维结构和收敛性待证项。",
+      "evidenceLocator": "10953963550/text; 10987516879/text"
+    },
+    {
+      "dimension": "self_audit",
+      "before": "GTFT 目录以公式覆盖与闭环声明为主。",
+      "after": "DSF 自评明确把参数独立性标为部分闭合，并把算子收敛性列为未完成证明。",
+      "evidenceLocator": "10987516879/text; self-assessment table"
+    }
+  ],
+  "unchangedConstraints": [
+    "没有公开 GTFT 五维作用量到 DSF 算子的完整等价性或极限推导。",
+    "参数内生、收敛性和独立实验验证不能由自我评估百分比替代。",
+    "公开未闭合项是方法进步，不等于物理理论已经成立。"
+  ],
+  "parameterProvenanceStatus": "partially_acknowledged_unresolved",
+  "knownLimitStatus": "not_established",
+  "predictionDiffStatus": "not_established",
+  "scientificAdvanceStatus": "unverified",
+  "evidenceUpgrade": false,
+  "notes": "记录数学组织与自我审计方式的变化，不把公开缺口改写为已经完成。"
+}

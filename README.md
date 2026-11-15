@@ -12,7 +12,7 @@
 - `THEORY_LINEAGE_AUDIT.md`：年度名称与内核演化、六维分评、研究立项，以及四元数三次方程的完整解集。
 - `CROSS_DOMAIN_APPLICATION_AUDIT.md`：拓扑病理学与治沙方案的跨学科准入、风险边界和退出条件。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
-- `theory_diff.py`、`records/feq_to_gtft.json`：机器可读的理论语义差异账本及防止更名升级的证据门禁。
+- `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
 

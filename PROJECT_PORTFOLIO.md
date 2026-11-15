@@ -44,7 +44,7 @@
 
 | 项目 | 当前状态 | 下一项最小工作 | 禁止的跳跃 |
 |---|---|---|---|
-| Theory-Diff-Ledger | **首份 FEQ→GTFT 记录与验证器已完成** | 用同一 schema 登记 GTFT→DSF 的变化与未闭合映射 | 更名即新理论 |
+| Theory-Diff-Ledger | **验证器与三份记录已完成，含 CNF 自身整改审计** | 将差异记录连接到具体主张、反例和预测冻结记录 | 更名即新理论 |
 | Mathematical-Microproofs | 已有四元数成果，持续开放 | 将另一个公开数学主张转成证明或反例 | 用数值示例冒充一般证明 |
 | Revision-and-Negative-Results | 已立项，已有超导和 DSF 案例 | 建立版本撤回与失败登记模板 | 删除失败或冲突版本 |
 | FEQ-Fermion-Ledger | 审查完成 | 冻结 PDG 版本、质量方案、能标和逐粒子参数来源 | 表中相等即参数内生 |
