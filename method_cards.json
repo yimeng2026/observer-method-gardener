@@ -142,6 +142,43 @@
       "sourceIds": [
         "11097913915"
       ]
+    },
+    {
+      "cardId": "parameter-provenance-before-economy",
+      "kind": "positive",
+      "ruleText": "评价少参数或参数内生时，先为每个常数、初始条件、质量分布、几何修正和模型选择登记物理意义、单位、来源及目标数据接触史。参数少不自动等于独立推导，测量输入也不等于自由拟合。",
+      "applicability": "统一理论、跨尺度模型、参数内生和零自由参数主张。",
+      "sourceIds": [
+        "10925099933",
+        "10957452992"
+      ]
+    },
+    {
+      "cardId": "table-summary-must-recompute",
+      "kind": "negative",
+      "ruleText": "任何汇总误差、显著性或最佳拟合结论必须能由同一份逐行数据、公开权重和明确公式复算。表中最大值与摘要不一致时，冻结结论并检查统计口径，禁止只保留有利数字。",
+      "applicability": "数据表、拟合报告、模型对比和 AI 生成统计结论。",
+      "sourceIds": [
+        "10925099933"
+      ]
+    },
+    {
+      "cardId": "named-dataset-is-not-validation",
+      "kind": "near_miss",
+      "ruleText": "提及 Gaia、SPARC 或其他真实数据库只是指定潜在外检对象。必须进一步公开数据版本、样本清单、预处理、代码、逐样本输出、不确定度和留出划分，才能讨论复现或预测能力。",
+      "applicability": "经验验证、数据库对照和跨模型基准。",
+      "sourceIds": [
+        "10925099933"
+      ]
+    },
+    {
+      "cardId": "dimensional-closure-before-numeric-prediction",
+      "kind": "negative",
+      "ruleText": "在计算任何寿命、质量、温度或天文数值前，先验证等式两侧量纲和所有参数的测量定义。量纲断裂时不得用接近已知纪录、事后调参或 AI 赞美挽救数值预言。",
+      "applicability": "物理公式、跨学科映射和由 AI 生成的数值预测。",
+      "sourceIds": [
+        "10957452992"
+      ]
     }
   ],
   "readyForTraining": false
