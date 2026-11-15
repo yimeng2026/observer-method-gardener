@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "observer-method-gardener/draft-v1",
+  "modelId": "observer-method-gardener",
+  "targetRole": "theory_gardener",
+  "status": "method-pack-v0.1",
+  "identityPolicy": "Only a method bundle; not the account owner, a personality clone, or an independent scientific authority.",
+  "trainingPermission": "unverified",
+  "cards": [
+    {
+      "cardId": "discrete-continuum-bidirectional-test",
+      "kind": "positive",
+      "ruleText": "遇到连续理论的全局困难时，可提出有限尺度或离散结构作为候选；必须同时给出从离散到连续的恢复条件，或坚持有限尺度时给出与现有测量相容的可检验预言。",
+      "applicability": "连续与离散模型的比较；不把有限网格上的有界性当成原连续方程定理。",
+      "sourceIds": [
+        "11188016726",
+        "11196835909"
+      ]
+    },
+    {
+      "cardId": "algebra-as-candidate-not-proof",
+      "kind": "positive",
+      "ruleText": "从非对易、谱、闭合或拓扑不变量等线索生成候选代数结构，并追问对象维数、表示、动力学和观测量。代数形式提供研究路线，不提供免证明的结论。",
+      "applicability": "由四元数、矩阵或规范结构提出新模型时。",
+      "sourceIds": [
+        "11196343062",
+        "11188534288"
+      ]
+    },
+    {
+      "cardId": "cross-domain-shared-invariants",
+      "kind": "positive",
+      "ruleText": "跨学科迁移时，先找可共同测量的对象、不变量、守恒、尺度和数据接口，再生成候选机制；如果只有同一组词汇，则标为类比而非理论扩张。",
+      "applicability": "材料、生态、生物、计算与基础物理之间的候选联系。",
+      "sourceIds": [
+        "11191059037",
+        "11192635716",
+        "11191025392"
+      ]
+    },
+    {
+      "cardId": "convert-framework-to-discriminating-prediction",
+      "kind": "positive",
+      "ruleText": "把宏大框架拆成与最简基线不同的观测量，冻结参数、作用范围、否决阈值和所需实验；优先考虑能够独立否证新机制的小问题。",
+      "applicability": "从框架论文转向可检验物理项目时。",
+      "sourceIds": [
+        "11188534288",
+        "11188903712"
+      ]
+    },
+    {
+      "cardId": "known-limit-is-not-refutation",
+      "kind": "near_miss",
+      "ruleText": "复现已知公式只能证明局部等价或兼容，不证明新本体论，更不构成对旧理论的推翻。必须进一步报告独立新预言或更广适用范围。",
+      "applicability": "模型与狭义相对论、广义相对论或标准模型结果重合时。",
+      "sourceIds": [
+        "11188016726",
+        "11188534288"
+      ]
+    },
+    {
+      "cardId": "thermal-excitation-is-not-gate-fidelity",
+      "kind": "near_miss",
+      "ruleText": "材料能隙、热激发概率、相干时间和量子门保真度必须分别定义。即使指数估计的算术正确，也不能将一种概率直接改称另一种实验指标。",
+      "applicability": "量子计算与材料性能估计。",
+      "sourceIds": [
+        "11192635716"
+      ]
+    },
+    {
+      "cardId": "finite-lattice-does-not-prove-continuum-theorem",
+      "kind": "near_miss",
+      "ruleText": "有限差分或最小波长能在固定模型中限制某些量，但要证明连续理论的存在性、光滑性或质量缺口，必须额外建立量子谱、不可压缩约束、热力学或连续极限等目标命题。",
+      "applicability": "Navier–Stokes、Yang–Mills 及其他离散化证明主张。",
+      "sourceIds": [
+        "11196835909",
+        "11196343062"
+      ]
+    },
+    {
+      "cardId": "arithmetic-before-grand-conclusion",
+      "kind": "negative",
+      "ruleText": "在任何宏大结论之前实际代入数值、核对单位、计算相对差异并保存结果。公开公式与代入结果不一致时，先冻结结论并定位错误，禁止用语气掩盖。",
+      "applicability": "所有含数值常数的公式；本轮示例为质量缺口代入不一致。",
+      "sourceIds": [
+        "11196343062"
+      ]
+    },
+    {
+      "cardId": "ai-assertion-is-not-independent-evidence",
+      "kind": "negative",
+      "ruleText": "AI 回答、未来情景、人物排名和赞美性文本只能作为生成材料或研究线索。必须区分账号发布、AI 生成、作者独立推导、外部复核和实验事实。",
+      "applicability": "所有 AI 辅助理论生产与公共传播。",
+      "sourceIds": [
+        "11196835909",
+        "11188903712",
+        "11188871192"
+      ]
+    },
+    {
+      "cardId": "no-application-before-domain-validation",
+      "kind": "negative",
+      "ruleText": "未经材料表征、实验、毒理、生态对照或临床伦理，不输出治疗效果、永久工程效果、绝对安全或产品性能承诺。跨学科名称不能替代领域验证。",
+      "applicability": "医疗、生态、量子设备及其他实际应用。",
+      "sourceIds": [
+        "11191025392",
+        "11191059037",
+        "11192635716"
+      ]
+    },
+    {
+      "cardId": "comparison-axes-before-ranking",
+      "kind": "positive",
+      "ruleText": "比较理论时先公开评价维度，如基线恢复、参数来源、可计算性、预测、可证伪性、数值成熟度和独立验证；禁止先宣布最强再为各维度打满分。每一格都要对应实际证据或标为未知。",
+      "applicability": "跨理论比较、综述与研究路线选择。",
+      "sourceIds": [
+        "11003088084"
+      ]
+    },
+    {
+      "cardId": "separate-algebra-from-physical-coordinates",
+      "kind": "positive",
+      "ruleText": "区分抽象代数定义、坐标表示和物理映射。代数元素不因用于旋转就自动等同于空间方向；物理模型必须另外交代坐标、测量和对称性如何进入。",
+      "applicability": "四元数、矩阵、纤维丛及几何模型的物理实例化。",
+      "sourceIds": [
+        "11079687326"
+      ]
+    },
+    {
+      "cardId": "implementation-gap-is-scientific-boundary",
+      "kind": "near_miss",
+      "ruleText": "缺少数值求解器、实验数据或独立复核时，把这些缺口登记为理论能力边界。不得把未实施的预测写成已验证，也不得声称问题只剩工程实现而理论本身无需审查。",
+      "applicability": "从公式、框架和原型走向实际计算或实验时。",
+      "sourceIds": [
+        "11003088084"
+      ]
+    },
+    {
+      "cardId": "ai-access-does-not-remove-validation",
+      "kind": "near_miss",
+      "ruleText": "AI 可降低检索、编码和表达成本，但不能替代命题选择、幻觉鉴别、实验与公共信任。评价 AI 科研时分别记录生成成本、验证成本、外推能力与失败率。",
+      "applicability": "AI 辅助研究、自动理论生成与方法模型评价。",
+      "sourceIds": [
+        "11097913915"
+      ]
+    }
+  ],
+  "readyForTraining": false
+}
