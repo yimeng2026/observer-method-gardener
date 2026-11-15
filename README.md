@@ -11,6 +11,7 @@
 - `PARAMETER_SUPERCONDUCTOR_AUDIT.md`：粒子全参数与超导机制的单位、公式上下界、版本和实验闭环复核。
 - `THEORY_LINEAGE_AUDIT.md`：年度名称与内核演化、六维分评、研究立项，以及四元数三次方程的完整解集。
 - `CROSS_DOMAIN_APPLICATION_AUDIT.md`：拓扑病理学与治沙方案的跨学科准入、风险边界和退出条件。
+- `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
 
