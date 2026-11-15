@@ -215,6 +215,42 @@
       "sourceIds": [
         "10406582785"
       ]
+    },
+    {
+      "cardId": "mass-table-requires-scheme-scale-provenance",
+      "kind": "negative",
+      "ruleText": "粒子质量表必须给出单位、测量不确定度、夸克重整化方案与能标、中微子排序和逐粒子参数来源。理论值与测量值在展示精度下相同不能区分独立推导与重抄，也不证明参数内生。",
+      "applicability": "粒子质量谱、全参数内生主张和标准模型比较。",
+      "sourceIds": [
+        "10688719651"
+      ]
+    },
+    {
+      "cardId": "equation-bound-before-prediction",
+      "kind": "positive",
+      "ruleText": "在宣布数值预言前，先利用根号、指数、概率和正参数等结构计算公式的上下界与定义域。若公开参数下的上界低于声称值，应立即冻结结论并定位公式或代入错误。",
+      "applicability": "超导温度、质量谱、寿命和任何显式解析公式。",
+      "sourceIds": [
+        "10751880300"
+      ]
+    },
+    {
+      "cardId": "qualitative-trend-not-numeric-prediction",
+      "kind": "near_miss",
+      "ruleText": "只能给出单调趋势、数量级或机制方向时，明确标记为定性模型。不得同时保留未通过的数值预言，也不得用可调参数覆盖任意趋势后宣称普实验证。",
+      "applicability": "材料设计、超导、跨学科机制和早期理论模型。",
+      "sourceIds": [
+        "10751880300"
+      ]
+    },
+    {
+      "cardId": "failed-version-must-be-retired-or-bounded",
+      "kind": "positive",
+      "ruleText": "新版复算发现旧版数值失败时，应保留失败证书并明确撤回、限制或替换旧版。不得让相互冲突的公式共享同一成功结论，也不得事后删除不利版本。",
+      "applicability": "理论迭代、公式修订、数值复算和公共论文版本管理。",
+      "sourceIds": [
+        "10751880300"
+      ]
     }
   ],
   "readyForTraining": false
