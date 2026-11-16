@@ -4,7 +4,7 @@
 
 ## 内容
 
-- `method_cards.json`：44 张方法卡，分为正例、近失误和负例。
+- `method_cards.json`：45 张方法卡，分为正例、近失误和负例。
 - `CASE_STUDY.md`：一个公开账号最近九帖的限定范围方法审查；不包含年度原始归档或图片。
 - `EMPIRICAL_CLAIM_AUDIT.md`：星系旋转曲线与 GTFT 寿命公式的限定范围复核，附六维分评和公开复现立项。
 - `OBSERVATION_CLAIM_AUDIT.md`：双脉冲星与米格达尔效应的观测主张复核，附原始实验对照和两个复现项目。
@@ -12,12 +12,13 @@
 - `THEORY_LINEAGE_AUDIT.md`：年度名称与内核演化、六维分评、研究立项，以及四元数三次方程的完整解集。
 - `SOLAR_CORONA_CLAIM_AUDIT.md`：日冕加热、日震统计、太阳中微子、卫星计时与多体分类的 150 图专项复核。
 - `SIX_FORCE_ENGINEERING_AUDIT.md`：室温超导、同位素对照、聚变、真空能、通信与工程路线图的 140 图专项复核。
+- `IDEAL_NONCRYSTAL_MAPPING_AUDIT.md`：真实理想非晶体研究、参数映射、合金与工程扩张的 108 图专项复核。
 - `CROSS_DOMAIN_APPLICATION_AUDIT.md`：拓扑病理学与治沙方案的跨学科准入、风险边界和退出条件。
 - `MESON_PREDICTION_AUDIT.md`：介子全论的公开质疑、参数来源、算子和 \(B_c(2S)\) 历史观测核查。
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：25 帖、730 张图片的实际视觉审阅登记；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：26 帖、838 张图片的实际视觉审阅登记；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。

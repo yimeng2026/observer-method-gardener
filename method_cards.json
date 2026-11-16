@@ -416,6 +416,15 @@
       "sourceIds": [
         "10377346752"
       ]
+    },
+    {
+      "cardId": "external-result-relabeling-is-not-independent-prediction",
+      "kind": "negative",
+      "ruleText": "把他人已发表结果改写为新框架术语只能算回溯性语义映射。必须冻结映射、区分原参数与新参数，并在未参与构造的数据上给出差异性预测；真实论文或实验不因此自动验证新框架。",
+      "applicability": "跨学科映射、材料数据库、真实成果引用和新理论证据审计。",
+      "sourceIds": [
+        "10501114457"
+      ]
     }
   ],
   "readyForTraining": false
