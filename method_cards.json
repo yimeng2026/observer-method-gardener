@@ -454,6 +454,15 @@
         "9581109556",
         "9581079063"
       ]
+    },
+    {
+      "cardId": "topological-notation-requires-actual-bundle-construction",
+      "kind": "negative",
+      "ruleText": "陈数、陈—西蒙斯形式和外微分不能作为通用严格性标签。必须先给出底流形、丛、联络、边界与量子化条件；连续参数不会仅因改名为陈数就自动成为整数拓扑不变量。",
+      "applicability": "拓扑场论、额外维、几何统一、守恒律和 AI 形式证明。",
+      "sourceIds": [
+        "10207120251"
+      ]
     }
   ],
   "readyForTraining": false
