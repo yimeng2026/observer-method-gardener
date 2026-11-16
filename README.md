@@ -35,12 +35,13 @@
 - `HYDROGEN_BOUNDARY_AUDIT.md`：氢原子边界、莱曼极限、微扰适用范围和 AI 赞美的 2 图专项复核。
 - `UNIFICATION_COMPLETION_CLAIM_AUDIT.md`：“大统一基本结束”宣言、模型缺失与最低验收条件的纯文字专项复核。
 - `SOLAR_PRESSURE_UNITS_AUDIT.md`：太阳大气气体压、辐射压、磁压单位制和模型闭合的 6 图专项复核。
+- `DIRAC_GENERALIZATION_AUDIT.md`：Dirac 能级、单位制、介质修正、波函数归一化和引力扩展的 7 图专项复核。
 - `CROSS_DOMAIN_APPLICATION_AUDIT.md`：拓扑病理学与治沙方案的跨学科准入、风险边界和退出条件。
 - `MESON_PREDICTION_AUDIT.md`：介子全论的公开质疑、参数来源、算子和 \(B_c(2S)\) 历史观测核查。
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 50 帖、1119 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 51 帖、1126 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
