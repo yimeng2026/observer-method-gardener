@@ -353,6 +353,15 @@
       "sourceIds": [
         "10980868953"
       ]
+    },
+    {
+      "cardId": "particle-identity-before-numeric-comparison",
+      "kind": "negative",
+      "ruleText": "比较粒子质量前先核对名称、量子数、自旋态和首次观测来源。不得把某个粒子的实测质量当成另一粒子的预测支持；未找到观测时标为身份警告或未核查，而不是强行判为吻合。",
+      "applicability": "粒子谱、数据库对照、实验预言和跨文献数值比较。",
+      "sourceIds": [
+        "10980868953"
+      ]
     }
   ],
   "readyForTraining": false

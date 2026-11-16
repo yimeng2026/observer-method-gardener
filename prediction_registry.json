@@ -62,8 +62,13 @@
       "target": "eta_b(3S) meson mass",
       "claim": {"value": 10355.0, "uncertainty": 20.0, "unit": "MeV"},
       "proposedExperiment": "BESIII upgrade",
-      "status": "unchecked",
-      "revisionRequired": false,
+      "status": "identity_mismatch_warning",
+      "reviewFlag": "possible_target_identity_confusion",
+      "reviewSources": [
+        {"source": "https://pdg.lbl.gov/2023/tables/rpp2023-tab-mesons-b-bbar.pdf", "note": "10355.1±0.5 MeV is listed for Upsilon(3S), not as an eta_b(3S) observation."},
+        {"source": "https://arxiv.org/html/1109.3479v1", "note": "The paper distinguishes Upsilon(3S)=10355 MeV from a model input eta_b(3S)=10328 MeV."}
+      ],
+      "revisionRequired": true,
       "evidenceUpgrade": false
     },
     {

@@ -33,6 +33,14 @@ class PredictionRegistryTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "revisionRequired"):
             validate_registry(registry)
 
+    def test_identity_warning_requires_sources_and_revision(self):
+        item = next(p for p in self.registry["predictions"] if p["predictionId"] == "hme-eta-b-3s-10355")
+        self.assertEqual(item["status"], "identity_mismatch_warning")
+        self.assertTrue(item["reviewSources"])
+        item["revisionRequired"] = False
+        with self.assertRaisesRegex(ValueError, "revisionRequired"):
+            validate_registry(self.registry)
+
     def test_evidence_upgrade_is_rejected(self):
         registry = copy.deepcopy(self.registry)
         registry["evidenceUpgrade"] = True

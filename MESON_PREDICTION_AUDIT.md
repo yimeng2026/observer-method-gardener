@@ -115,6 +115,14 @@ CMS 原始摘要显示，2019 年已报告符合 \(B_c(2S)\) 的信号，测得�
 
 这项核查不判断其他 HME 预言，也不表示作者知道全部历史文献。它要求当前版本把该条目从“待验证新预言”改为“已有观测且当前中心值不匹配”，并执行自己承诺的修订。
 
+### 5.1 \(\eta_b(3S)\)：先核对粒子身份，再比较数字
+
+注册表中的另一项是 \(\eta_b(3S)=10355\pm20\,\mathrm{MeV}\)。本轮精确检索没有找到其直接实验观测的一手证据；相反，PDG 表格把 \(10355.1\pm0.5\,\mathrm{MeV}\) 明确列给 \(\Upsilon(3S)\)。[PDG \(\Upsilon(3S)\) 表](kimi-cite://web?url=https%3A%2F%2Fpdg.lbl.gov%2F2023%2Ftables%2Frpp2023-tab-mesons-b-bbar.pdf "citation")
+
+文献中也明确区分二者：同一篇模型相关研究采用 \(\Upsilon(3S)=10355\,\mathrm{MeV}\)，而把 \(\eta_b(3S)=10328\,\mathrm{MeV}\) 作为相对论夸克模型输入。[模型文献](kimi-cite://web?url=https%3A%2F%2Farxiv.org%2Fhtml%2F1109.3479v1 "citation")
+
+因此本条目不能标为“实验吻合”。但“未检索到观测”不等于证明该态不存在，也不等于已有观测否定它。注册表将其标为 `identity_mismatch_warning`：需要澄清粒子身份、量子数和预测来源，并检查是否误用了 \(\Upsilon(3S)\) 的质量。该状态与 \(B_c(2S)\) 的实测中心值不匹配分开保存。
+
 ## 六、六维分评
 
 | 维度 | 优点 | 缺口 |

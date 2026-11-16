@@ -7,7 +7,7 @@ import math
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-STATUSES = {"unchecked", "pending_observation", "historical_mismatch", "supported", "contradicted_current_data"}
+STATUSES = {"unchecked", "pending_observation", "historical_mismatch", "supported", "contradicted_current_data", "identity_mismatch_warning"}
 
 
 def validate_registry(registry: dict) -> None:
@@ -41,6 +41,11 @@ def validate_registry(registry: dict) -> None:
                 raise ValueError("historical_mismatch requires a sourced observation")
             if item["revisionRequired"] is not True:
                 raise ValueError("historical_mismatch requires revisionRequired=true")
+        if item["status"] == "identity_mismatch_warning":
+            if item.get("reviewFlag") != "possible_target_identity_confusion" or not item.get("reviewSources"):
+                raise ValueError("identity_mismatch_warning requires reviewFlag and reviewSources")
+            if item["revisionRequired"] is not True:
+                raise ValueError("identity_mismatch_warning requires revisionRequired=true")
 
 
 def main() -> None:
