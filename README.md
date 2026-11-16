@@ -15,7 +15,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：21 帖、333 张图片的实际视觉审阅登记；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：22 帖、395 张图片的实际视觉审阅登记；只含编号和哈希，不公开原始图片。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
 
