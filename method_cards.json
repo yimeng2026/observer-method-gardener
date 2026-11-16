@@ -326,6 +326,33 @@
       "sourceIds": [
         "11153774899"
       ]
+    },
+    {
+      "cardId": "historical-observation-is-not-prospective-prediction",
+      "kind": "negative",
+      "ruleText": "把数值称为新预言前，必须检查该态或现象是否已有公开观测及其发布日期。已有测量不能因作者未检索到就转化为独立预测；发现历史结果后应重新登记为兼容性检验。",
+      "applicability": "粒子谱、天文预言、实验结果检索和预测时间戳审计。",
+      "sourceIds": [
+        "10980868953"
+      ]
+    },
+    {
+      "cardId": "admitted-fit-cannot-be-relabelled-endogenous",
+      "kind": "negative",
+      "ruleText": "参数一旦承认来自目标数据或全局拟合，就不能再用‘超定’‘锁死’等词直接称为第一性原理内生。必须提供独立测量、未接触目标的推导或真正留出预测。",
+      "applicability": "参数内生、跨尺度统一、联合拟合和少参数模型。",
+      "sourceIds": [
+        "10980868953"
+      ]
+    },
+    {
+      "cardId": "self-falsification-threshold-must-trigger",
+      "kind": "positive",
+      "ruleText": "公开材料给出偏差或排除阈值后，实际结果达到门槛就必须触发下调、修订或撤回。不得把阈值只当宣传，也不得用未来新预测抵消已经失败的条目。",
+      "applicability": "前瞻预言、负结果、模型修订和科学承诺管理。",
+      "sourceIds": [
+        "10980868953"
+      ]
     }
   ],
   "readyForTraining": false

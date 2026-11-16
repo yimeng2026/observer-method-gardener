@@ -11,9 +11,10 @@
 - `PARAMETER_SUPERCONDUCTOR_AUDIT.md`：粒子全参数与超导机制的单位、公式上下界、版本和实验闭环复核。
 - `THEORY_LINEAGE_AUDIT.md`：年度名称与内核演化、六维分评、研究立项，以及四元数三次方程的完整解集。
 - `CROSS_DOMAIN_APPLICATION_AUDIT.md`：拓扑病理学与治沙方案的跨学科准入、风险边界和退出条件。
+- `MESON_PREDICTION_AUDIT.md`：介子全论的公开质疑、参数来源、算子和 \(B_c(2S)\) 历史观测核查。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：19 帖、296 张图片的实际视觉审阅登记；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：20 帖、328 张图片的实际视觉审阅登记；只含编号和哈希，不公开原始图片。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
 
