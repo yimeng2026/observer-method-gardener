@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "material-candidate-probe/v1",
+  "sourceId": "10377346752",
+  "database": "Materials Project",
+  "apiVersion": "0.88.3",
+  "queryType": "exact formula search",
+  "queries": [
+    {"formula": "Y2LiH8", "totalDoc": 0, "timestamp": "2026-11-16T03:01:02.510315+00:00"},
+    {"formula": "LaNi4H10", "totalDoc": 0, "timestamp": "2026-11-16T03:01:38.316981+00:00"},
+    {"formula": "Pt3C2H6", "totalDoc": 0, "timestamp": "2026-11-16T03:01:40.593122+00:00"}
+  ],
+  "interpretation": "No exact-formula computational record was returned. This is not evidence that a compound or metastable phase cannot exist, and it is not a superconductivity prediction.",
+  "evidenceUpgrade": false
+}

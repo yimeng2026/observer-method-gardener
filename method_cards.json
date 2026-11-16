@@ -398,6 +398,24 @@
       "sourceIds": [
         "10409241814"
       ]
+    },
+    {
+      "cardId": "isotope-control-must-separate-spin-and-phonons",
+      "kind": "positive",
+      "ruleText": "同位素对照可帮助检验核自旋耦合，但必须同时控制晶格、缺陷、化学组成与普通声子同位素效应。只有质量或自旋改变而缺少这些对照时，不得把差异直接归给新增相互作用。",
+      "applicability": "超导、凝聚态、核自旋、材料对照和非常规配对机制。",
+      "sourceIds": [
+        "10377346752"
+      ]
+    },
+    {
+      "cardId": "information-channel-cannot-be-information-free",
+      "kind": "negative",
+      "ruleText": "一个可调制、有数据率和误码率的通信通道不能被同时描述为不传递信息。讨论超光速时必须区分相速度、群速度、前沿速度与信息速度，不能用无信息表述为可用超光速通信免责。",
+      "applicability": "超光速通信、量子网络、波传播、因果性和新相互作用工程设想。",
+      "sourceIds": [
+        "10377346752"
+      ]
     }
   ],
   "readyForTraining": false
