@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "prediction-registry/v1",
+  "scope": "Public quantitative claims registered for review. Unchecked means not yet checked, not false. No entry validates an entire theory.",
+  "evidenceUpgrade": false,
+  "readyForTraining": false,
+  "predictions": [
+    {
+      "predictionId": "hme-bc2s-6910",
+      "sourceId": "10980868953",
+      "target": "B_c(2S)",
+      "claim": {"value": 6910.0, "uncertainty": 15.0, "unit": "MeV"},
+      "proposedExperiment": "LHCb / CMS",
+      "status": "historical_mismatch",
+      "observation": {"year": 2019, "value": 6871.0, "unit": "MeV", "source": "https://arxiv.org/abs/1902.00571"},
+      "differenceMeV": 39.0,
+      "revisionRequired": true,
+      "evidenceUpgrade": false
+    },
+    {
+      "predictionId": "hme-dark-photon-6p2",
+      "sourceId": "10980868953",
+      "target": "dark photon mass",
+      "claim": {"value": 6.2, "uncertainty": 0.1, "unit": "MeV"},
+      "proposedExperiment": "Belle II / SHINE",
+      "status": "unchecked",
+      "revisionRequired": false,
+      "evidenceUpgrade": false
+    },
+    {
+      "predictionId": "hme-zprime-183p2",
+      "sourceId": "10980868953",
+      "target": "Z' boson mass",
+      "claim": {"value": 183.2, "uncertainty": 0.5, "unit": "GeV"},
+      "proposedExperiment": "LHC Run 4",
+      "status": "unchecked",
+      "revisionRequired": false,
+      "evidenceUpgrade": false
+    },
+    {
+      "predictionId": "hme-quantum-geometry-621p4",
+      "sourceId": "10980868953",
+      "target": "quantum-geometry candidate mass",
+      "claim": {"value": 621.4, "uncertainty": 1.0, "unit": "GeV"},
+      "proposedExperiment": "CEPC / FCC-ee high-energy mode",
+      "status": "unchecked",
+      "revisionRequired": false,
+      "evidenceUpgrade": false
+    },
+    {
+      "predictionId": "hme-proton-radius-0p859",
+      "sourceId": "10980868953",
+      "target": "proton radius unified value",
+      "claim": {"value": 0.859, "uncertainty": 0.004, "unit": "fm"},
+      "proposedExperiment": "PRad-II / PSI muonic hydrogen",
+      "status": "unchecked",
+      "revisionRequired": false,
+      "evidenceUpgrade": false
+    },
+    {
+      "predictionId": "hme-eta-b-3s-10355",
+      "sourceId": "10980868953",
+      "target": "eta_b(3S) meson mass",
+      "claim": {"value": 10355.0, "uncertainty": 20.0, "unit": "MeV"},
+      "proposedExperiment": "BESIII upgrade",
+      "status": "unchecked",
+      "revisionRequired": false,
+      "evidenceUpgrade": false
+    },
+    {
+      "predictionId": "hme-cmb-neff-3p12",
+      "sourceId": "10980868953",
+      "target": "CMB effective neutrino number",
+      "claim": {"value": 3.12, "uncertainty": 0.06, "unit": "dimensionless"},
+      "proposedExperiment": "CMB-S4 / Simons Observatory",
+      "status": "unchecked",
+      "revisionRequired": false,
+      "evidenceUpgrade": false
+    },
+    {
+      "predictionId": "hme-light-quark-ratio-1p00234",
+      "sourceId": "10980868953",
+      "target": "light-quark angular coefficient ratio (A+B)/(1+C)",
+      "claim": {"value": 1.00234, "unit": "dimensionless"},
+      "proposedExperiment": "publicly proposed light-quark measurement",
+      "status": "unchecked",
+      "revisionRequired": false,
+      "evidenceUpgrade": false
+    }
+  ]
+}
