@@ -308,6 +308,24 @@
         "10829216285",
         "10781170630"
       ]
+    },
+    {
+      "cardId": "forecast-score-all-stations-not-best-case",
+      "kind": "negative",
+      "ruleText": "时间序列预测必须预先冻结并评估所有站点、时刻和方向，不能只展示最接近的一个点。同时报告 MAE、RMSE、方向错误、缺失值和常规基线，避免把局部命中写成整体完美。",
+      "applicability": "水文、气象、金融、实验预报和任何序列模型。",
+      "sourceIds": [
+        "11153774899"
+      ]
+    },
+    {
+      "cardId": "missing-interval-imputation-is-not-blind-prediction",
+      "kind": "near_miss",
+      "ruleText": "缺少中间时段数据时，插值或状态重建必须给出不确定度并防止未来信息泄漏。不能把缺失期重建直接当成已冻结的前瞻预测，也不能忽略指出缺口的评论。",
+      "applicability": "缺失时间序列、回溯预测、盲评和外部数据复核。",
+      "sourceIds": [
+        "11153774899"
+      ]
     }
   ],
   "readyForTraining": false
