@@ -1,7 +1,7 @@
 {
   "schemaVersion": "visual-review-coverage/v1",
-  "reviewedPosts": 49,
-  "visualReviewedImages": 1113,
+  "reviewedPosts": 50,
+  "visualReviewedImages": 1119,
   "posts": [
     {
       "post_id": "11188016726",
@@ -198,6 +198,10 @@
     {
       "post_id": "9565646581",
       "visualReviewedImages": 0
+    },
+    {
+      "post_id": "9567979465",
+      "visualReviewedImages": 6
     }
   ],
   "images": [
@@ -7990,6 +7994,48 @@
       "image": "02.jpg",
       "sha256": "29fcb5026252a0add380a9c6c28fe4e93e3430f2ef3c2fda3de2bb601ce4350a",
       "bytes": 1552036,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9567979465",
+      "image": "01.jpg",
+      "sha256": "2a54e60e95e5bbff8ebd71f1a485822e3966fadc6cd26b311b7fd78477db3d25",
+      "bytes": 196052,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9567979465",
+      "image": "02.jpg",
+      "sha256": "d16212616733da3453458d8fb75cceb990490b67d55909bf54b5290d583a857d",
+      "bytes": 193488,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9567979465",
+      "image": "03.jpg",
+      "sha256": "73264c581690cb34685ecde24cc6787dcd1564ba83bb66b28887afc9eac99c21",
+      "bytes": 156190,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9567979465",
+      "image": "04.jpg",
+      "sha256": "70544d8e3a5e2d167aa6f6970e4b322a1f5467ff81ca2322f0c9bac8bd96f5f2",
+      "bytes": 153988,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9567979465",
+      "image": "05.jpg",
+      "sha256": "0bce594d51598b578fbceec477b6748919c45908abaaf8166f07a0efe6ba68b0",
+      "bytes": 143967,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9567979465",
+      "image": "06.jpg",
+      "sha256": "f5cd251374e86df6d496dcf4d6879118b4f391b6c7318bd8c4028640de953781",
+      "bytes": 176357,
       "reviewScope": "visual_content_scan; selected originals enlarged where needed"
     }
   ],
