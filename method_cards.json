@@ -380,6 +380,24 @@
       "sourceIds": [
         "10416993115"
       ]
+    },
+    {
+      "cardId": "classification-is-not-dynamical-solution",
+      "kind": "negative",
+      "ruleText": "群论、纤维丛和对称性可以分类与约化多体问题，但不自动求解具体动力学。宣称问题已解决前，必须给出具体哈密顿量、计算或解析结果、误差、复杂度及与基准方法的比较。",
+      "applicability": "多体物理、几何化建模、有效作用量和 AI 生成的统一框架。",
+      "sourceIds": [
+        "10409241814"
+      ]
+    },
+    {
+      "cardId": "statistical-claim-needs-executable-data-chain",
+      "kind": "negative",
+      "ruleText": "卡方、贝叶斯因子、相关系数和显著性必须能追溯到原始数据、测量定义、协方差、自由度、先验与可运行代码。硬编码统计结果或只有函数名的代码外形不构成数据重分析。",
+      "applicability": "日震、卫星计时、粒子谱、宇宙学及所有 AI 辅助统计分析。",
+      "sourceIds": [
+        "10409241814"
+      ]
     }
   ],
   "readyForTraining": false

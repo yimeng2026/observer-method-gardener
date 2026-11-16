@@ -21,18 +21,19 @@
     "imageDownloadComplete": true
   },
   "semanticReview": {
-    "reviewedPosts": 23,
-    "visualReviewedImages": 440,
-    "unreviewedCurrentImages": 11454,
+    "reviewedPosts": 24,
+    "visualReviewedImages": 590,
+    "unreviewedCurrentImages": 11304,
     "completeAnnualVisualReview": false,
     "representativeSynthesisFinalized": true
   },
-  "methodCards": 40,
+  "methodCards": 42,
   "readyForTraining": false,
   "scientificValidation": false,
   "evidenceUpgrade": false,
   "notes": [
     "Capture, comment and download gates do not establish scientific validity.",
+    "Reply-control detection includes numbered, all, more and view-all controls; the earlier legacy-only gate was superseded.",
     "This annual synthesis uses full-card navigation, selected full text and actually reviewed representative images.",
     "Annual visual semantic review remains incomplete; no source text or images are published here."
   ]
