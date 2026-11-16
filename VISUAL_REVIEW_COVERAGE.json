@@ -1,7 +1,7 @@
 {
   "schemaVersion": "visual-review-coverage/v1",
-  "reviewedPosts": 45,
-  "visualReviewedImages": 1110,
+  "reviewedPosts": 46,
+  "visualReviewedImages": 1111,
   "posts": [
     {
       "post_id": "11188016726",
@@ -182,6 +182,10 @@
     {
       "post_id": "9524209110",
       "visualReviewedImages": 18
+    },
+    {
+      "post_id": "9546041462",
+      "visualReviewedImages": 1
     }
   ],
   "images": [
@@ -7953,6 +7957,13 @@
       "image": "18.jpg",
       "sha256": "297b977b36c216c97107b6300ab9698a34fa81f169326ee7a5c69d235dfc42d4",
       "bytes": 187094,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9546041462",
+      "image": "01.jpg",
+      "sha256": "ea66a7581d29f9deba0a76de4b6634f111548104d65a7c2d76741319aefee2df",
+      "bytes": 277514,
       "reviewScope": "visual_content_scan; selected originals enlarged where needed"
     }
   ],
