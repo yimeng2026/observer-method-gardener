@@ -4,7 +4,7 @@
 
 ## 内容
 
-- `method_cards.json`：39 张方法卡，分为正例、近失误和负例。
+- `method_cards.json`：40 张方法卡，分为正例、近失误和负例。
 - `CASE_STUDY.md`：一个公开账号最近九帖的限定范围方法审查；不包含年度原始归档或图片。
 - `EMPIRICAL_CLAIM_AUDIT.md`：星系旋转曲线与 GTFT 寿命公式的限定范围复核，附六维分评和公开复现立项。
 - `OBSERVATION_CLAIM_AUDIT.md`：双脉冲星与米格达尔效应的观测主张复核，附原始实验对照和两个复现项目。
@@ -16,6 +16,7 @@
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
 - `VISUAL_REVIEW_COVERAGE.json`：23 帖、440 张图片的实际视觉审阅登记；只含编号和哈希，不公开原始图片。
+- `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
 
@@ -25,7 +26,7 @@
 - 不把 AI 生成、作者独立推导、外部复核和实验事实混为一谈。
 - 所有提议默认 `proposal/analogy`，不得修改硬约束或升级全局证据。
 - `readyForTraining=false`，公开可读不等于允许训练。
-- 年度扩展审查仍未完成，本版本不是最终年度蒸馏模型。
+- 年度代表案例总评已定稿；全图语义审阅尚未完成，本版本不是最终年度蒸馏模型。
 
 ## 花园接口
 

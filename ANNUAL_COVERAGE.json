@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "annual-public-material-coverage/v1",
+  "date": "2026-11-16",
+  "scope": {
+    "start": "2025-11-15",
+    "end": "2026-11-15",
+    "posts": 532
+  },
+  "captureGate": {
+    "currentRecords": 532,
+    "missingOrStale": 0,
+    "commentsIncomplete": 0,
+    "foldedCommentsRemaining": 0,
+    "unavailable": 0,
+    "coverageComplete": true
+  },
+  "imageGate": {
+    "imageRecords": 11894,
+    "imagesSaved": 11894,
+    "imageIssues": 0,
+    "imageDownloadComplete": true
+  },
+  "semanticReview": {
+    "reviewedPosts": 23,
+    "visualReviewedImages": 440,
+    "unreviewedCurrentImages": 11454,
+    "completeAnnualVisualReview": false,
+    "representativeSynthesisFinalized": true
+  },
+  "methodCards": 40,
+  "readyForTraining": false,
+  "scientificValidation": false,
+  "evidenceUpgrade": false,
+  "notes": [
+    "Capture, comment and download gates do not establish scientific validity.",
+    "This annual synthesis uses full-card navigation, selected full text and actually reviewed representative images.",
+    "Annual visual semantic review remains incomplete; no source text or images are published here."
+  ]
+}

@@ -371,6 +371,15 @@
       "sourceIds": [
         "11153774899"
       ]
+    },
+    {
+      "cardId": "observable-mapping-must-identify-parameters",
+      "kind": "positive",
+      "ruleText": "把几何对象映射为可观测量时，先检查常规极限与参数可识别性。若多个参数只以固定组合进入公式，就不能用一组吻合数据分别确定它们；必须增加独立测量或承认参数简并。",
+      "applicability": "额外维度、折射率、压强、跨尺度映射和参数内生主张。",
+      "sourceIds": [
+        "10416993115"
+      ]
     }
   ],
   "readyForTraining": false
