@@ -444,6 +444,16 @@
         "9966466979",
         "9966450809"
       ]
+    },
+    {
+      "cardId": "preserve-valid-subresult-without-global-upgrade",
+      "kind": "positive",
+      "ruleText": "公式或模型的局部正确部分应通过展开、数值和适用范围检查明确保留；不得因局部有效就升级无关主张，也不得因另一主张错误而删除已经通过的子结果。",
+      "applicability": "渐近近似、理论修订、负结果、数学证明和 AI 生成内容的公平评价。",
+      "sourceIds": [
+        "9581109556",
+        "9581079063"
+      ]
     }
   ],
   "readyForTraining": false
