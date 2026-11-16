@@ -21,13 +21,13 @@
     "imageDownloadComplete": true
   },
   "semanticReview": {
-    "reviewedPosts": 26,
-    "visualReviewedImages": 838,
-    "unreviewedCurrentImages": 11056,
+    "reviewedPosts": 27,
+    "visualReviewedImages": 874,
+    "unreviewedCurrentImages": 11020,
     "completeAnnualVisualReview": false,
     "representativeSynthesisFinalized": true
   },
-  "methodCards": 45,
+  "methodCards": 46,
   "readyForTraining": false,
   "scientificValidation": false,
   "evidenceUpgrade": false,

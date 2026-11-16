@@ -425,6 +425,15 @@
       "sourceIds": [
         "10501114457"
       ]
+    },
+    {
+      "cardId": "definition-identity-is-not-independent-derivation",
+      "kind": "negative",
+      "ruleText": "若质量先由模型能量除以光速平方定义，再由同一能量差推出质能关系，只是定义恒等式。必须提供独立质量与能量测量，或用未接触目标的参数做留出检验，不能把同义反复称为实验验证。",
+      "applicability": "质能关系、参数内生、模型定义、跨学科映射和循环论证检查。",
+      "sourceIds": [
+        "10226818220"
+      ]
     }
   ],
   "readyForTraining": false
