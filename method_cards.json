@@ -362,6 +362,15 @@
       "sourceIds": [
         "10980868953"
       ]
+    },
+    {
+      "cardId": "public-prediction-needs-accessible-machine-readable-record",
+      "kind": "positive",
+      "ruleText": "公开预测必须同时提供可访问的正文或机器可读数据、数值、误差、时间戳和版本。只发图片、私信或他人无法打开的链接不构成完整公共检验链；需回应可访问性反馈。",
+      "applicability": "前瞻预言、公共数据发布、社区评审和独立复现。",
+      "sourceIds": [
+        "11153774899"
+      ]
     }
   ],
   "readyForTraining": false
