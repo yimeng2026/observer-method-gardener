@@ -434,6 +434,16 @@
       "sourceIds": [
         "10226818220"
       ]
+    },
+    {
+      "cardId": "heuristic-fit-is-not-mathematical-proof",
+      "kind": "negative",
+      "ruleText": "渐近公式、有限枚举和最佳拟合点不能证明对所有对象成立的一般猜想。必须给出覆盖一般情形的逻辑推导与严格误差界，并在未参与拟合的样本上评估数值模型。",
+      "applicability": "数论猜想、参数拟合、渐近分析、AI 数学证明和物理直觉公式。",
+      "sourceIds": [
+        "9966466979",
+        "9966450809"
+      ]
     }
   ],
   "readyForTraining": false
