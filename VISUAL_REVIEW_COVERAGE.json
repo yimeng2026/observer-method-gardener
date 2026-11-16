@@ -1,6 +1,6 @@
 {
   "schemaVersion": "visual-review-coverage/v1",
-  "reviewedPosts": 40,
+  "reviewedPosts": 41,
   "visualReviewedImages": 1086,
   "posts": [
     {
@@ -162,6 +162,10 @@
     {
       "post_id": "9523710612",
       "visualReviewedImages": 4
+    },
+    {
+      "post_id": "9475751686",
+      "visualReviewedImages": 0
     }
   ],
   "images": [
