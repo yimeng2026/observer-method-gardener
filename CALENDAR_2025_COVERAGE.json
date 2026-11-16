@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "annual-review-status/v1",
+  "scope": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "posts": 188
+  },
+  "currentRecords": 188,
+  "missingOrStaleIds": [],
+  "commentsIncompleteIds": [],
+  "foldedCommentIds": [],
+  "unavailableIds": [],
+  "imageRecords": 4862,
+  "imagesSaved": 4862,
+  "imageIssues": [],
+  "coverageComplete": true,
+  "imageDownloadComplete": true,
+  "readyForAnnualSynthesis": true,
+  "requiresSemanticImageReview": true,
+  "notes": [
+    "Coverage and download checks do not establish scientific validity.",
+    "A complete capture is not equivalent to semantic review of every image.",
+    "Folded reply controls block final coverage even when a global all-loaded marker exists.",
+    "This status contains identifiers and counts, not source text or image URLs."
+  ]
+}
