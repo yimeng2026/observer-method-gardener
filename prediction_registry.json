@@ -22,7 +22,13 @@
       "target": "dark photon mass",
       "claim": {"value": 6.2, "uncertainty": 0.1, "unit": "MeV"},
       "proposedExperiment": "Belle II / SHINE",
-      "status": "unchecked",
+      "status": "pending_observation",
+      "reviewFlag": "requires_coupling_channel_and_detector_model",
+      "reviewSources": [
+        {"source": "https://arxiv.org/html/2401.06843v1", "note": "The 6.2 MeV case appears in resonant-production simulations; this is not an observation."},
+        {"source": "https://cds.cern.ch/record/2956361/files/2603.08430.pdf", "note": "Dark-photon exclusions depend on production, decay, coupling and detector assumptions."}
+      ],
+      "reviewedAt": "2026-11-16",
       "revisionRequired": false,
       "evidenceUpgrade": false
     },
