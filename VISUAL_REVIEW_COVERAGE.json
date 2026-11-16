@@ -1,7 +1,7 @@
 {
   "schemaVersion": "visual-review-coverage/v1",
-  "reviewedPosts": 43,
-  "visualReviewedImages": 1089,
+  "reviewedPosts": 44,
+  "visualReviewedImages": 1092,
   "posts": [
     {
       "post_id": "11188016726",
@@ -173,6 +173,10 @@
     },
     {
       "post_id": "9531357756",
+      "visualReviewedImages": 3
+    },
+    {
+      "post_id": "9532344263",
       "visualReviewedImages": 3
     }
   ],
@@ -7798,6 +7802,27 @@
       "image": "03.jpg",
       "sha256": "4588477d46a9d8f15249541d6d995252e328ac71e90ffd6aae27d7ef1e288db8",
       "bytes": 122548,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9532344263",
+      "image": "01.jpg",
+      "sha256": "297b977b36c216c97107b6300ab9698a34fa81f169326ee7a5c69d235dfc42d4",
+      "bytes": 187094,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9532344263",
+      "image": "02.jpg",
+      "sha256": "cf763f7eee0f0d5a00046ccfd03c1ea2dc3483e6d696ee558c96593b8a9cde7e",
+      "bytes": 274854,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9532344263",
+      "image": "03.jpg",
+      "sha256": "7f15685e08c2db46126bd09fb521584dcf90522a9b575ee25b8fe075218d57b8",
+      "bytes": 257885,
       "reviewScope": "visual_content_scan; selected originals enlarged where needed"
     }
   ],
