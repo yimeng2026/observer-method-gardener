@@ -17,12 +17,13 @@
 - `GOLDBACH_ESTIMATE_AUDIT.md`：两篇哥德巴赫帖的 18 图审阅、独立素数枚举、Li 口径与留出样本复算。
 - `HARMONIC_APPROXIMATION_AUDIT.md`：两则调和级数材料的 10 图审阅、展开系数、精确有限和与 ζ(1) 极点复核。
 - `NS_FOLLOWUP_SCOPE_AUDIT.md`：NS 后续帖的 96 图审阅、命题范围、陈数量子化与形式证明边界。
+- `NS_ANALYTICAL_CLAIM_AUDIT.md`：NS 精准解析帖的 17 图审阅、槽道流算例、模拟评审与一般证明边界。
 - `CROSS_DOMAIN_APPLICATION_AUDIT.md`：拓扑病理学与治沙方案的跨学科准入、风险边界和退出条件。
 - `MESON_PREDICTION_AUDIT.md`：介子全论的公开质疑、参数来源、算子和 \(B_c(2S)\) 历史观测核查。
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 32 帖、998 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 33 帖、1015 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查。
 - `tests/method_cards.test.mjs`：离线接口与安全边界测试。
