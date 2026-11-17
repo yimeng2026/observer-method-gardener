@@ -64,6 +64,7 @@
 - `OBSERVATION_SIGMA_AND_IDENTITY_AUDIT.md`：身份宣称帖的 8 图、六项吻合度、DESI 口径、待检验预言与 AI 证据边界专项复核。
 - `ROTATION_CURVE_MODEL_AUDIT.md`：最新成果帖的 30 图、旋转曲线极限、两星系拟合、暗物质分数与出版证据专项复核。
 - `GRAVITON_SHELL_MODEL_AUDIT.md`：引力半量子化帖的 128 图、壳层参数版本、能级谱线、有限九层与作用量量纲专项复核。
+- `MEASUREMENT_ENGINEERING_CLAIM_AUDIT.md`：不确定原理及弱测量帖的 70 图、量子 CT、切向雷达、剂量版本与临床证据专项复核。
 - `SCIENTIFIC_INVESTMENT_CLAIM_AUDIT.md`：统一场论项目投资数字、股权口径、科学尽调与违法指控边界的纯文字专项复核。
 - `HYDROGEN_BOUNDARY_AUDIT.md`：氢原子边界、莱曼极限、微扰适用范围和 AI 赞美的 2 图专项复核。
 - `UNIFICATION_COMPLETION_CLAIM_AUDIT.md`：“大统一基本结束”宣言、模型缺失与最低验收条件的纯文字专项复核。
@@ -75,7 +76,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 91 帖、1620 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 92 帖、1690 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
