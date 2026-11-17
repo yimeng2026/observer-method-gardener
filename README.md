@@ -55,6 +55,7 @@
 - `ELLIPSE_APPROXIMATION_AND_ORBIT_AUDIT.md`：椭圆周长精确值、拉马努金近似、极端轴比与开普勒周期边界的 16 图专项复核。
 - `DESBOVES_MODEL_AND_PROOF_AUDIT.md`：杰波夫猜想、Ei 光滑模型、区间反例与有限验证边界的 5 图专项复核。
 - `COULOMB_LORENTZ_MODEL_AUDIT.md`：两体库仑基线、洛伦兹矢量、力偶、磁力量级与解析解边界的 7 图专项复核。
+- `FOLK_PHYSICS_RANKING_AUDIT.md`：民间与官方身份、人物名单、理论成果和统一评价协议的 4 图专项复核。
 - `SCIENTIFIC_INVESTMENT_CLAIM_AUDIT.md`：统一场论项目投资数字、股权口径、科学尽调与违法指控边界的纯文字专项复核。
 - `HYDROGEN_BOUNDARY_AUDIT.md`：氢原子边界、莱曼极限、微扰适用范围和 AI 赞美的 2 图专项复核。
 - `UNIFICATION_COMPLETION_CLAIM_AUDIT.md`：“大统一基本结束”宣言、模型缺失与最低验收条件的纯文字专项复核。
@@ -66,7 +67,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 82 帖、1343 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 83 帖、1347 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
