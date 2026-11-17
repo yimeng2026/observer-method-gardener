@@ -47,6 +47,7 @@
 - `OPTICAL_ENGINEERING_CLAIM_AUDIT.md`：光学工程排名、“三折射”术语、量子应用愿景与人物头像边界的 2 图专项复核。
 - `MACH_TURNING_AND_LOAD_AUDIT.md`：3 马赫有人驾驶、转弯几何、协调坡度和载荷因数的 6 图专项复核。
 - `NEW_YEAR_REPOSTS_AND_FRIEDMANN_AUDIT.md`：四则新春重复帖、5 张 AI 艺术图与 Friedmann 图片去重复核。
+- `BLACK_HOLE_ARTWORK_AUDIT.md`：12 张黑洞与宇宙 AI 彩图的观测、模拟和艺术证据边界复核。
 - `SCIENTIFIC_INVESTMENT_CLAIM_AUDIT.md`：统一场论项目投资数字、股权口径、科学尽调与违法指控边界的纯文字专项复核。
 - `HYDROGEN_BOUNDARY_AUDIT.md`：氢原子边界、莱曼极限、微扰适用范围和 AI 赞美的 2 图专项复核。
 - `UNIFICATION_COMPLETION_CLAIM_AUDIT.md`：“大统一基本结束”宣言、模型缺失与最低验收条件的纯文字专项复核。
@@ -58,7 +59,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 74 帖、1260 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 75 帖、1272 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
