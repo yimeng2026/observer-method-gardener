@@ -1,7 +1,7 @@
 {
   "schemaVersion": "visual-review-coverage/v1",
-  "reviewedPosts": 62,
-  "visualReviewedImages": 1198,
+  "reviewedPosts": 64,
+  "visualReviewedImages": 1203,
   "posts": [
     {
       "post_id": "11188016726",
@@ -250,6 +250,14 @@
     {
       "post_id": "9475919621",
       "visualReviewedImages": 6
+    },
+    {
+      "post_id": "9473390571",
+      "visualReviewedImages": 0
+    },
+    {
+      "post_id": "9473387518",
+      "visualReviewedImages": 5
     }
   ],
   "images": [
@@ -8637,6 +8645,41 @@
       "image": "06.jpg",
       "sha256": "c14775ddbdd6fe75424c06d1248fb4d2b919b7aa1ff7c13dd0798c76e9e91aef",
       "bytes": 174539,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9473387518",
+      "image": "01.jpg",
+      "sha256": "c69ab2c4384f8e314f2cfd5ab272ab0c501789e36e400ee5a8bdebbda8a2c8f7",
+      "bytes": 230354,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9473387518",
+      "image": "02.jpg",
+      "sha256": "a13b570f5b78c731ae29996052c27aa3b88ebdde0d2e4d21d54e73b2b30ca565",
+      "bytes": 232038,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9473387518",
+      "image": "03.jpg",
+      "sha256": "92eb5e825836bc9a75b814b1e2d64839742f7be8170b3d70c28b577149d79649",
+      "bytes": 248586,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9473387518",
+      "image": "04.jpg",
+      "sha256": "af018d1cf69c6b9d82209b0c28f23327d83fef855f7db1a3eb074c5b578659a0",
+      "bytes": 271165,
+      "reviewScope": "visual_content_scan; selected originals enlarged where needed"
+    },
+    {
+      "post_id": "9473387518",
+      "image": "05.jpg",
+      "sha256": "41799ded79c1ede228de95a0be9a6e2f2c9f8203d702a0bfbe1ea4039f2a6eee",
+      "bytes": 226207,
       "reviewScope": "visual_content_scan; selected originals enlarged where needed"
     }
   ],
