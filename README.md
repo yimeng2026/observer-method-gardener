@@ -28,6 +28,7 @@
 - `PRIME_QUADRUPLET_COUNTING_AUDIT.md`：四连生素数常数、Euler 乘积、局部密度与区间概率的 2 图专项复核。
 - `SR_CONSTANT_FORCE_AUDIT.md`：狭义相对论恒力解、非零初速度、质量比与水星进动扩张的 4 图专项复核。
 - `STARLIGHT_DEFLECTION_AUDIT.md`：星光偏折、指数动量式、微角秒修正与测地线前提的纯文字专项复核。
+- `PHOTON_TO_COSMOS_FRAGMENT_AUDIT.md`：介质动量、双轴能量反例、偏折前因子和黑洞／宇宙学红移边界的 5 图专项复核。
 - `QUATERNION_WAVEFUNCTION_AUDIT.md`：四元数指数、非交换乘法、波函数前提和动量算符的纯文字专项复核。
 - `ELLIPTIC_INTEGRAL_AUDIT.md`：椭圆周长积分、可积端点、恒等换元与 AI 错误否定的专项复核。
 - `ELLIPTIC_RANKING_AND_ARC_AUDIT.md`：公式排名、正弦—椭圆弧长等价、相对论弧长扩张及 li／Li 口径的 16 图专项复核。
@@ -45,7 +46,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 55 帖、1158 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 56 帖、1163 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
