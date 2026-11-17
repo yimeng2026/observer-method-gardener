@@ -20,6 +20,7 @@
 - `NS_ANALYTICAL_CLAIM_AUDIT.md`：NS 精准解析帖的 17 图审阅、槽道流算例、模拟评审与一般证明边界。
 - `NEW_OFFICIAL_SCIENCE_AUDIT.md`：新官科研究准则、四参数版本、引力子与暗物质数值的 13 图专项复核。
 - `GENERALIZED_NEWTON_AUDIT.md`：极坐标动量分解、变质量边界、横向力反例和 Schwarzschild 测地线的 25 图专项复核。
+- `GENERALIZED_LORENTZ_AND_ETHER_AUDIT.md`：恒力功—能、指数因子、库仑积分、反向初值及麦莫纵横臂时间的 22 图专项复核。
 - `TWIN_PRIME_GAP_AUDIT.md`：相邻孪生素数对间距的 7 图审阅、初等下界、启发式均值和 \(p=71\) 算术复核。
 - `INVERSE_SQRT_SUM_AUDIT.md`：倒数平方根有限和的两页评论与 3 图审阅、凸性严格夹逼和 \(S(100)\) 反例。
 - `PRIME_COUNTING_ESTIMATE_AUDIT.md`：大数素数计数的两页评论与 6 图审阅、高精度估计、Legendre 反例和 Mertens 前因子。
@@ -48,7 +49,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 59 帖、1166 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 60 帖、1188 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
