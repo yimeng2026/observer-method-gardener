@@ -50,6 +50,7 @@
 - `BLACK_HOLE_ARTWORK_AUDIT.md`：12 张黑洞与宇宙 AI 彩图的观测、模拟和艺术证据边界复核。
 - `DEEPSEEK_IMAGE_AND_LIFESPAN_AUDIT.md`：DeepSeek 画图能力、多工具工作流、身高外推和预期寿命的 27 图专项复核。
 - `BLUE_STAR_HARMONIC_AUDIT.md`：调和数近似、β 系数尾数、大数相消、非零余项与解析延拓边界的 5 图专项复核。
+- `ELECTRON_RADIUS_MODEL_AUDIT.md`：经典电子半径、飞米换算、自能积分、结构上限与经典自旋的 5 图专项复核。
 - `SCIENTIFIC_INVESTMENT_CLAIM_AUDIT.md`：统一场论项目投资数字、股权口径、科学尽调与违法指控边界的纯文字专项复核。
 - `HYDROGEN_BOUNDARY_AUDIT.md`：氢原子边界、莱曼极限、微扰适用范围和 AI 赞美的 2 图专项复核。
 - `UNIFICATION_COMPLETION_CLAIM_AUDIT.md`：“大统一基本结束”宣言、模型缺失与最低验收条件的纯文字专项复核。
@@ -61,7 +62,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 77 帖、1304 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 78 帖、1309 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
