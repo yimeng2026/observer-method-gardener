@@ -73,6 +73,7 @@
 - `EEBH_PARAMETER_TABLE_AUDIT.md`：EEBH 黑洞参数表的 31 图、进动、四极矩、S0-2、GW 相位和统计证据专项复核。
 - `BLACK_HOLE_OBSERVATION_PLAN_AUDIT.md`：黑洞建模集锦的 10 图、周期、喷流摆幅、Lense–Thirring 基线和观测方案专项复核。
 - `EARTHQUAKE_PREDICTION_CLAIM_AUDIT.md`：地震理论帖的 11 图、7000 年周期、2145 年事件、重力前兆、破裂量纲和预测证据专项复核。
+- `VACUUM_ENGINEERING_AND_SIMULATED_MEMO_AUDIT.md`：真空理论帖的 29 图、暗能量密度、聚变经济账、EAST 基线和模拟政府公文专项复核。
 - `SCIENTIFIC_INVESTMENT_CLAIM_AUDIT.md`：统一场论项目投资数字、股权口径、科学尽调与违法指控边界的纯文字专项复核。
 - `HYDROGEN_BOUNDARY_AUDIT.md`：氢原子边界、莱曼极限、微扰适用范围和 AI 赞美的 2 图专项复核。
 - `UNIFICATION_COMPLETION_CLAIM_AUDIT.md`：“大统一基本结束”宣言、模型缺失与最低验收条件的纯文字专项复核。
@@ -84,7 +85,7 @@
 - `prediction_registry.py`、`prediction_registry.json`：8 条定量预言及其来源、历史观测、核查状态和修订义务。
 - `PROJECT_PORTFOLIO.md`：全部已有成果、研究项目状态、优先顺序和停止条件的统一总表。
 - `theory_diff.py`、`records/`：机器可读的理论语义差异账本，现有 FEQ→GTFT、GTFT→DSF 和 CNF 旧版→整改版三份记录。
-- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 100 帖、1892 张图片；只含编号和哈希，不公开原始图片。
+- `VISUAL_REVIEW_COVERAGE.json`：跨全部当前审查范围登记 101 帖、1921 张图片；只含编号和哈希，不公开原始图片。
 - `ANNUAL_COVERAGE.json`：年度 532 篇的采集、评论和图片保存门禁快照；不含原帖或图片。
 - `CALENDAR_2025_COVERAGE.json`：2025 自然年 188 篇及 4862 张图片的保存门禁快照；语义审阅仍在继续。
 - `checks/` 与对应 Python 测试：公开数字的可复算算术检查；部分高精度数论复算使用 `mpmath`。
